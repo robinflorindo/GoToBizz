@@ -43,6 +43,65 @@
     box-shadow: 0 5px 10px lightgray;
 }
 
+.container {
+    font-family: 'Roboto';
+    font-size: 0.9em;
+    height: 135px;
+    position: absolute;
+    margin-bottom: 0.1px;
+    margin-top: 10px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 -2px 4px lightgray;
+}
+
+.top {
+    width: 100%;
+    height: 20px;
+    background-image: url(gtblogo.svg);
+    background-repeat: no-repeat;
+}
+
+.left {
+    width: 50%;
+    height: 80px;
+    float: left;
+    margin-top: 10px;
+}
+
+.text-left {
+    padding-top: 10px;
+}
+
+.text-right {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.right {
+    width: 50%;
+    height: 80px;
+    float: right;
+    margin-top: 10px;
+}
+
+.bottom {
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    height: 40px;
+    width: 100%;
+    display: block;
+}
+
+.fa-facebook-square, .fa-google-plus-square, .fa-linkedin-square {
+    margin-left: 15px;
+    font-size: 1.1em;
+}
+
 .form-holder {
     overflow: visible;
     width: 90%;
@@ -52,27 +111,15 @@
     margin-bottom: 20px;
 }
 
-footer{
-    margin-top: 100px;
-    height: 170px;
-    position: absolute;
-    bottom: -0.1;
-    background-color: white;
-    text-align: center;
-    padding: 20px;
-    left: 0;
-    right: 0;
-    box-shadow: 0px -3px 10px lightgray;
-}
 
 .bg {
-    background-color: rgb(242,234,67);
     height: 100vh;
 }
 
 
 .choice {
     margin: 0 auto;
+    padding: 20px;
     text-align: center;
     position: relative;
     top: 50%;
@@ -196,6 +243,11 @@ h2 {
 .fillTop {
     width: 100%;
     height: 60px;
+}
+
+.extra {
+    width: 100%;
+    height: 80px;
 }
 
 .fillBottom {
