@@ -157,43 +157,6 @@ footer{
     box-shadow: 0px 3px 10px lightgray;
 }
 
-.aboutWim, .aboutPhilip {
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    height: 100%;
-    width: 79%;
-    background-color: white;
-    margin: 0 auto 20px auto;
-    padding: 20px;
-    box-shadow: 0px 3px 10px lightgray;
-}
-
-.uitleg-business {
-    background-color: white;
-    width: 79%;
-    margin: 0 auto;
-    padding: 20px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    box-shadow: 0px 3px 10px lightgray;
-}
-
-.form-picture-yp, .form-picture-b {
-    width: 90%;
-    height: 200px;
-    margin: 0 auto;
-    background-size: cover;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.form-picture-b {
-    background-image: url(meeting.jpeg);
-}
-
-.form-picture-yp {
-    background-image: url(girl.jpeg);
-}
 
 .form {
     margin: 20px auto;
@@ -223,28 +186,6 @@ footer{
 h2 {
     font-size: 1em;
     font-weight: bold;
-}
-
-.fotoWim, .fotoPhilip {
-    height: 250px;
-    width: 90%;
-    margin: 0 auto;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.fotoWim {
-    background-image: url(wim.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.fotoPhilip {
-    background-image: url(philip.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .fillTop {
